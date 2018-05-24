@@ -1,0 +1,53 @@
+.App {
+    text-align: center;
+    width: 410px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.greyBlock {
+    background: grey;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid grey;
+}
+
+.transparentBlock {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid black;
+    font-size: 40px;
+}
+
+.container {
+    padding-top: 40px;
+    background-color: #fff;
+
+}
+
+.display {
+    text-align: right;
+    font-size: 80px;
+    width: 400px;
+    margin: 0 auto;
+    height: 100px;
+    border: 1px solid black;
+}
+
+button {
+    width: 33%;
+    height: 80px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+text {
+    padding: 10px;
+    height: 150px;
+    font-size: 20px;
+}
